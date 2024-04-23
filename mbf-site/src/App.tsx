@@ -128,7 +128,7 @@ function DeviceInUse() {
     <>
       <p>To fix this, close SideQuest if you have it open, press <span className="codeBox">Win + R</span> and type the following text, and finally press enter.</p>
       <span className="codeBox">taskkill /IM adb.exe /F</span>  
-      <img src="images/run.png" alt="Run dialog" />
+      <img src="images/run.png" alt="Run dialog box" />
       <p>Alternatively, restart your computer.</p>
     </>
     : <p>To fix this, restart your {isViewingOnMobile() ? "phone" : "computer"}.</p>}
